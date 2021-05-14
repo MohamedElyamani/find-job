@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu
+{
+    background: linear-gradient(to right, #47e65a, aqua);  
+    
+}
+.navbar-nav
+{
+    text-align: right;
+    
+}
+.nav-link
+{
+    color: #000 !important;
+    font-size: 16px;
+    margin: .5px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    
+}
+.nav-link:hover
+{
+    background: red;
+    color: white !important;
+    border-radius: 15%;
+}
+.navbar-brand
+{
+    margin-left: 25px;
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.fa
+{
+    margin-right: 10px;
+}
+.banner
+{
+    width: 100%;
+    height: 90vh;
+    background: url('img/2.jpg');
+    background-size: 100%  100%;
+    background-position: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.banner h1
+{
+    padding-top: 150px;
+    font-size: 5em;
+    text-shadow: 2px 2px rgba(27, 226, 88, 0.5)
+}
+.banner p
+{
+    font-size: 2em;
+    text-shadow: 2px 2px 10px black;
+}
+/*--------------------------END HEADER---------------------------------------------*/
+/*--------------------------START SEARCHING BOX---------------------------------------------*/
+
+.serach
+{
+    background: linear-gradient(to right, #47e65a, aqua);
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    
+}
+.serach .form-control
+{
+    width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 20px;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 18px;
+}
+.serach.form-control:focus
+{
+    transition: .5s;
+    background: #00ff00;
+}
+.serach .btn-primary
+{
+    display: inline-flex;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 5px;
+    
+}
+/*--------------------------END SEARCHING BOX---------------------------------------------*/
+
+/*--------------------------START TOP COMPANY---------------------------------------------*/
+
+#company
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container h1
+{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.container h1::before
+{
+    content: '';
+    background: linear-gradient(to right, #47e65a, aqua);
+    width: 150px;
+    height: 50px;
+    z-index: -10;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.logo img
+{
+    width: 100px;
+    margin: 10px 20px;
+    padding-top: 10px;
+    opacity: 0.3;
+    transition: all 0.5s ease;
+}
+.logo img:hover
+{
+    padding-top: 0px;
+    margin: 0px 5px;
+    width: 120px;
+    opacity: 1;
+}
+/*--------------------------END TOP COMPANY---------------------------------------------*/
+
+/*-------------------------------------------START JOBS-----------------------*/
+#jobs
+{
+    padding-top: 20px;
+    
+}
+
+.container h2::before
+{
+    content: '';
+    background: linear-gradient(to right, #47e65a, aqua);
+    width: 150px;
+    height: 50px;
+    z-index: -1;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container h3
+{
+    margin-bottom: 0 !important;
+}
+.container h5
+{
+    margin-left: 16px !important ;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px !important;
+}
+.job-update
+{
+    background: #eee;
+    padding: 20px;
+    padding-bottom: -10px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5)
+}
+.describtion p
+{
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
+}
+.describtion small
+{
+    padding-right: 5px;
+    background: #eee;
+}
+.describtion small::after
+{
+    content: ' |';
+}
+.describtion small:last-child::after
+{
+    content: '';
+}
+.job-update .fa
+{
+    color: red;
+}
+.apply
+{
+    float: right;
+    margin-right: 50px;
+}
+.apply .btn-primary
+{
+    border: none !important;
+    box-shadow: none !important;
+}
+.page li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 2px;
+    list-style: none;
+    padding-bottom: 50px;
+}
+.page li a
+{
+    text-decoration: none;
+    padding: 5px
+}
+.page li a:hover, .active
+{
+    background: linear-gradient(to right, #47e65a, aqua);
+    border-radius: 10px;
+}
+/*-------------------------------------------END JOBS-------------------------*/
+
+/*<!--------------------------------------------START ABOUT------------------------->*/
+#about
+{
+    padding-bottom: 50px ;
+}
+.container h3
+{
+    padding-bottom: 20px;
+}
+.container h3::before
+{
+    content: '';
+    background: linear-gradient(to right, #47e65a, aqua);
+    width: 50px;
+    height: 40px;
+    z-index: -1;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.type p
+{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #d0d0d033;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/*<!--------------------------------------------END ABOUT------------------------->*/
+
+/*<!--------------------------------------------START FOOTTER------------------------->*/
+#footer
+{
+    padding: 50px 50px;
+    background: linear-gradient(to right, #47e65a, aqua);
+    
+}
+.row li a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.row li a:hover
+{
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: red;
+    transition: 0.5s;
+}
+.connect
+{
+    float: right;
+    margin-right: -50px;
+    
+}
+.connect a
+{
+    text-decoration: none;
+}
+.connect img
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: .6;
+}
+.connect img:hover
+{
+    opacity: 1;
+    transition: .7s;
+}
+
+/*<!--------------------------------------------END FOOTTER------------------------->*/
